@@ -12,9 +12,11 @@ const Home = (props) => {
         <title>Fragrant Jealous Pelican</title>
         <meta property="og:title" content="Fragrant Jealous Pelican" />
       </Helmet>
-      <Link to="/place-x" className="home-navlink button">
-        Button
-      </Link>
+      <div className="home-container1">
+        <Link to="/place-x" className="home-navlink button">
+          Button
+        </Link>
+      </div>
     </div>
   )
 }
